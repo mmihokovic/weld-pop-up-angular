@@ -1,0 +1,18 @@
+.text-center{
+    text-align: center;
+}
+
+.image-small{
+    max-width: 320px;
+    max-height: 320px;
+}
+
+.column-half {
+    float: left;
+    max-width: 45%;
+    padding: 5px;
+}
+
+.text-size-large{
+    font-size: 22pt;
+}

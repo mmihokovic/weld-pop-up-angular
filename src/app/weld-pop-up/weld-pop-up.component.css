@@ -1,0 +1,37 @@
+.modal {
+    /* detach from rest of the document */
+    position: fixed;
+
+    /* center */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    /* ensure in front of rest of page -- increase as needed */
+    z-index: 100;
+
+    /* visual illusion of being a solid object -- alter to taste */
+    background-color: white;
+    border: 1px solid black;
+
+    /* visual preference of don't crowd the contents -- alter to taste */
+    padding: 10px;
+    max-width: 1000px;
+    min-height: 320px; 
+}
+
+.align-left {
+	float: left;
+}
+.align-right {
+	float: right;
+}
+
+.top-margin-large{
+    margin-top: 25px;
+}
+
+.icon-small{
+    width: 32px;
+    height: 32px;
+}
